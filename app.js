@@ -18,3 +18,7 @@ app.listen(process.env.PORT || 8100, function() {
 app.get('/', function (req, res) {
    res.send('Hello world');
 });
+
+app.get('/staging/test', function (req, res) {
+   res.send('test staging');
+});
