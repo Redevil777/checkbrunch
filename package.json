@@ -1,0 +1,23 @@
+{
+  "name": "checkbrunch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redevil777/checkbrunch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Redevil777/checkbrunch/issues"
+  },
+  "homepage": "https://github.com/Redevil777/checkbrunch#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
